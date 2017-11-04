@@ -1,0 +1,18 @@
+{
+  //contains all the metadata of addon
+  "manifest_version": 2,
+  "name": "Text Search in Different Search Engines",
+  "version": "1.0",
+  "description": "Searches highlighted text in different search engines",
+  "author":"Akash Mangal",
+  "icons": {
+    "96": "myicon.png",
+	"96": "bing.png"
+  },
+  
+  "permissions":["contextMenus"],   //extracting permissions of context menus
+  "background": {
+     "scripts": ["java.js"]
+  
+}
+}
